@@ -1,7 +1,7 @@
 <?php
 include_once('header.php');
 
-// for delete data start
+
    if(isset($_GET['id'])){
     $id = $_GET['id'];
 
@@ -13,7 +13,6 @@ include_once('header.php');
     }
     
    }
-// for delete data end
 
 
   $sql = "SELECT * FROM user ";

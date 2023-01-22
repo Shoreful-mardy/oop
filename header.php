@@ -1,5 +1,5 @@
 <?php
- include_once('lib/database.php');
+ include_once('database.php');
  $db = new Database();
 ?>
 <!DOCTYPE html>
